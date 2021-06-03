@@ -50,20 +50,19 @@ function App() {
        </Route>
 
       <Route path="/Program2">
-      
-     <Navforpro/>
+    
       <Program2/>
     
       </Route>
 <Route path="/Program1">
       
-      <Navforpro/>
+      
       <Program1/>
       </Route>
 
         <Route path="/">
        
-       
+        <Navforpro/>
       <Topnav />
      
       </Route>

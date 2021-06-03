@@ -183,7 +183,7 @@ export default function App() {
           dont hurt them with the word that contains
           script kidy
 
-          if you have any problem with our website
+          if you have any problem 
           please contact us at the email address 
           given below
         </p>
@@ -194,7 +194,7 @@ export default function App() {
   </div>
  
   <div class="text-center p-3" alighn="background-color: rgba(0, 0, 0, 0.2);">
-     report any problem:
+     Having any trouble :
     <a class="text-danger" href="https://mail.google.com/mail/paircoderscommunity@gmail.com/0/#inbox?compose=new">paircoderscommunity@gmail.com
      </a>
   </div>
