@@ -1,24 +1,76 @@
-import logo from './logo.svg';
+import  React from 'react'
 import './App.css';
+import Topnav from'./Topnav';
+
+import Program1 from './Program1';
+import Program2 from "./Program2";
+import Program3 from './Program3';
+import Program4 from './Program4';
+import Program5 from './Program5';
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  
+} from "react-router-dom";
+
+import Navforpro from "./Navforpro"
 
 function App() {
   return (
+    <Router> 
+      
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    
+    <Switch>
+
+
+    <Route path="/Program5">
+      
+   
+       <Program5/>
+     
+       </Route>
+
+
+
+    <Route path="/Program4">
+      
+   
+       <Program4/>
+     
+       </Route>
+
+
+    <Route path="/Program3">
+      
+ 
+       <Program3/>
+     
+       </Route>
+
+      <Route path="/Program2">
+      
+     <Navforpro/>
+      <Program2/>
+    
+      </Route>
+<Route path="/Program1">
+      
+      <Navforpro/>
+      <Program1/>
+      </Route>
+
+        <Route path="/">
+       
+       
+      <Topnav />
+     
+      </Route>
+      </Switch>
     </div>
+    
+    </Router>
   );
 }
 
